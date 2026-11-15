@@ -1,3 +1,4 @@
+
 {
   "name": "indias-got-latent",
   "private": true,
@@ -15,5 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "vite": "^6.0.5"
+  },
+  "allowScripts": {
+    "esbuild": true
   }
 }

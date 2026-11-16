@@ -811,3 +811,134 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* ADMIN DASHBOARD */
+
+.admin-section {
+  padding: 110px 7%;
+  background: #0d0d0d;
+  border-bottom: 1px solid #292020;
+}
+
+.admin-form {
+  max-width: 700px;
+  margin: 35px 0;
+  padding: 30px;
+  background: #171313;
+  border: 1px solid #3b2424;
+  border-radius: 16px;
+}
+
+.admin-form h3,
+.admin-list h3 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.admin-form label {
+  display: block;
+  color: #d5bcbc;
+  margin: 17px 0 8px;
+  font-size: 13px;
+}
+
+.admin-form input,
+.admin-form select {
+  width: 100%;
+  padding: 14px;
+  color: white;
+  background: #090909;
+  border: 1px solid #493030;
+  border-radius: 8px;
+  outline: none;
+}
+
+.admin-form input:focus,
+.admin-form select:focus {
+  border-color: #ed2929;
+}
+
+.admin-form select option {
+  background: #111;
+}
+
+.admin-actions,
+.admin-item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.admin-notice {
+  margin-top: 20px;
+  color: #b5a1a1;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.admin-list {
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+.admin-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 18px;
+  margin-bottom: 12px;
+  background: #171313;
+  border: 1px solid #382626;
+  border-radius: 10px;
+}
+
+.admin-item strong,
+.admin-item span {
+  display: block;
+}
+
+.admin-item strong {
+  color: white;
+}
+
+.admin-item span {
+  color: #a99a9a;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.admin-item-actions button {
+  background: #302020;
+  border: 1px solid #603030;
+  color: white;
+  border-radius: 6px;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+
+.admin-item-actions button:hover {
+  background: #a51e1e;
+}
+
+.episode-thumbnail {
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .admin-section {
+    padding: 85px 5%;
+  }
+
+  .admin-form {
+    padding: 20px;
+  }
+
+  .admin-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
